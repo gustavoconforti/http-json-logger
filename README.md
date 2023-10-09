@@ -68,6 +68,3 @@ Contributions and enhancements to this project are welcome. Please fork the repo
 
 ## License
 This project is licensed under the [GNU General Public License, Version 3 (GPL-3.0)](LICENSE). See the [LICENSE](LICENSE) file for details.
-
-## Disclaimer
-This repository is for educational and research purposes only. Deploying honeypots on a network without proper authorization may be illegal in some jurisdictions. Use responsibly and in compliance with applicable laws and regulations.
