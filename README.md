@@ -1,6 +1,6 @@
 # HTTP JSON Logger
 
-This project provides a simple HTTP endpoint that allows you to log JSON data to a file on your server. It's designed to receive HTTP POST requests with JSON payloads and store the data in a log file. Useful for log analysis tools that do not offer this feature and rely only on local files consumption.
+This project provides a simple HTTP endpoint that allows you to receive HTTP POST requests with JSON payloads and store the data in a log file. Useful for integration with log analysis tools that do not offer this feature but are able to consume local log files.
 
 ## Prerequisites
 
