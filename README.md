@@ -74,5 +74,9 @@ Make sure to replace `test_token`, `server-ip`, and adjust the JSON payloads as 
 ## Contribution
 Contributions and enhancements to this project are welcome. Please fork the repository, make your improvements, and submit a pull request. Be sure to adhere to the project's coding standards and guidelines.
 
+<p align="center">
+  <img src="https://github.com/gustavoconforti/wazuh-honeypot/assets/56703129/d30da931-de3a-44dd-93d5-cfa2c63f6331" style="width:50%;">
+</p>
+
 ## License
 This project is licensed under the [GNU General Public License, Version 3 (GPL-3.0)](LICENSE). See the [LICENSE](LICENSE) file for details.
