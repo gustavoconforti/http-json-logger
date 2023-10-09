@@ -10,6 +10,14 @@ Before you can run the project, you'll need to install the necessary dependencie
 pip3 install gunicorn flask flask-talisman
 ```
 
+It is also advisable to create a log file directory and set the appropriate permissions.
+
+```bash
+sudo mkdir /path/to/log
+```
+
+The script has the path hardcoded to `/var/log/http-json-logger/requests.log`, change according to your needs.
+
 ## Running the script
 To run the script once, you can use the following command:
 
