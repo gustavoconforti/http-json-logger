@@ -1,6 +1,6 @@
 # HTTP JSON Logger
 
-This project provides a simple HTTP endpoint that allows you to receive HTTP POST requests with JSON payloads and store the data in a log file. Useful for integration with log analysis tools that do not offer this feature but are able to consume local log files.
+This project provides a simple HTTP endpoint that allows you to receive HTTP POST requests with JSON payloads, store the data in a log file and send it to a syslog capable server. Useful for integration with log analysis tools that do not offer this feature but are able to consume local log files or receive syslog messages.
 
 ## Prerequisites
 
