@@ -37,7 +37,7 @@ After=network.target
 
 [Service]
 User=your_username
-ExecStart=/usr/local/bin/gunicorn --workers 2 -b 0.0.0.0:55001 --certfile /etc/cusco-azul/certs/public.crt --keyfile /etc/cusco-azul/certs/private.key http_json_logger:app
+ExecStart=/usr/local/bin/gunicorn --workers 2 -b 0.0.0.0:55001 --certfile /path/to//public.crt --keyfile /path/to//private.key http_json_logger:app
 Restart=always
 
 [Install]
