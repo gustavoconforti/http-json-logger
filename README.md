@@ -2,6 +2,10 @@
 
 This project provides a simple HTTP endpoint that allows you to receive HTTP POST requests with JSON payloads, store the data in a log file and send it to a syslog capable server. Useful for integration with log analysis tools that do not offer this feature but are able to consume local log files or receive syslog messages.
 
+> [!NOTE]  
+> Starting from version 4.6, the `/events` endpoint is available in the Wazuh API - the tool that initially demanded this script - enabling the event ingestion directly through HTTP requests.
+> The file [`send-to-wazuh-api.py`](send-to-wazuh-api.py) exemplifies how to do so.
+
 ## Prerequisites
 
 Before you can run the project, you'll need to install the necessary dependencies using `pip3`:
